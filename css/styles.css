@@ -1,0 +1,431 @@
+@font-face {
+        font-family: 'Gothic A1';
+        src: url('../fonts/GothicA1-Regular.woff2') format('woff2'),
+        url('../fonts/GothicA1-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+@font-face {
+        font-family: 'Gothic A1';
+        src: url('../fonts/GothicA1-Bold.woff2') format('woff2'),
+        url('../fonts/GothicA1-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+}
+body {
+        font-family: 'Gothic A1', 'Arial', sant-serif;
+}
+* {
+        margin: 0;
+        padding: 0;
+}
+.container {
+        width: 1131px;
+        margin: 0 auto;
+}
+.background {
+        width: 1440px;
+        height: 800px;
+        background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+.header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+}
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+}
+.link {
+        color: #FFFFFF;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        text-decoration: none;
+        margin-right: 30px;
+}
+.main_img {
+        position: relative;
+}
+.img {
+        position: absolute;
+        left: 740px;
+        top: 60px;
+}
+.main_subject {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 226px;
+
+}
+h1 {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        color: #FFFFFF;
+        
+}
+.main_p {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: #FFFFFF;
+        margin-top: 10px;
+}
+.get {
+        width: 170px;
+        height: 66px;
+        background: #FC0A7E;
+        border-radius: 3px;
+        margin-top: 25px;
+}
+.get_link {
+        text-decoration: none;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+}
+.background_main {
+        width: 1440px;
+        height: 957px;
+        background-color: #1B1B1B;;
+}
+.subject_page2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+}
+.main_page2 {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+}
+.subject_main {
+        width: 607px;
+        height: 96px;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 30px;
+}
+.page2_img {
+        position: relative;
+        top: 60px;
+        left: 120px;
+}
+.cards {
+        margin-top: 80px;
+}
+.card {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 160px;
+}
+
+.card_h3 {
+        width: 302px;
+        height: 96px;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        color: #000000;
+        margin-top: 30px;
+}
+.card_p {
+        width: 306px;
+        height: 90px;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+        margin-top: 20px;
+}
+.row_reverse {
+        display: flex;
+        flex-direction: row-reverse;
+}
+.content {
+        width: 1296px;
+        height: 209px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 72px;
+}
+.content_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.content_h4 {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+        margin-top: 41px;
+}
+.content_p {
+        width: 371px;
+        height: 90px;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+        text-align: center;
+        margin-top: 15px;
+}
+.contenet_referense {
+        width: 1296px;
+        height: 134px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 72px;
+        margin-top: 160px;
+}
+.referense_h5 {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 59px;
+        text-align: center;
+        color: #333333;
+}
+.referense_p {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+}
+.food_menu {
+        margin-top: 170px;
+}
+.referense_journals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.text {
+        width: 700px;
+        height: 200px;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        color: #6B6B6B;
+        margin-top: 66px;
+}
+.journals {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.journals_h6 {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #6B6B6B;
+}
+.line {
+        width: 30px;
+        height: 1px;
+        background: rgba(211, 211, 211, 1);
+        color: rgba(211, 211, 211, 1);
+        margin: 0 20px;
+}
+.color {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #6B6B6B;
+}
+.square_ {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+}
+.square {
+        width: 7px;
+        height: 7px;
+        background: rgba(34, 34, 34, 0.4);
+        margin: 0 8px;
+}
+.colors {
+        background: #222222;
+}
+.partners {
+        margin-left: 216px;
+        margin-top: 142px;
+        margin-bottom: 118px;
+}
+.background_color {
+        width: 1440px;
+        height: 474px;
+        background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063 url("../img/Group.png");
+}
+.ready {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.get_started {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 165px;
+}
+.button {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+}
+.button_link {
+        width: 190px;
+        height: 66px;
+        border: 1px solid #B04BB3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+}
+.links_color {
+        background-color: #FC0A7E;
+        border-radius: 3px;
+}
+.link_a {
+        text-decoration: none;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+}
+.back {
+        width: 1440px;
+        height: 463px;
+        background: rgba(27, 27, 27, 1);
+        
+}
+.last_page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.updates {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        color: #FFFFFF;
+        margin-top: 130px;
+}
+.updates_p {
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6B6B6B;
+        margin-top: 20px;
+}
+.e-mail {
+        display: flex;
+        margin-top: 40px;
+
+}
+.email {
+        width: 311px;
+        height: 70px;
+        background: #FFFFFF;
+        /* box-shadow: 0px 0px 0px #FC0A7E; */
+        border-radius: 3px 0px 0px 3px;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+}
+.submit {
+        width: 154px;
+        height: 75px;
+        background: #FC0A7E;
+        border-radius: 0px 3px 3px 0px;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+}
+.footer {
+        width: 1440px;
+        height: 242px;
+        background: rgba(27, 27, 27, 1);
+
+}
+.last_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+}
+.footer_nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+        margin-top: 30px;
+}
+.footer_link {
+        margin-left: 30px;
+}
+.link_footer_a {
+        text-decoration: none;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #6B6B6B;
+}
